@@ -1,0 +1,21 @@
+@import 'index';
+@import 'footer';
+
+
+main {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+                      
+}
+
+.grib {
+    grid-template-areas: 'img1' 'imag2' 'imag3'
+                     '.parraf1' '.parraf2' 'parraf3';
+
+}
+
+.img1 {
+    grid-area: 'img1';
+}
+

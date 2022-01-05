@@ -1,0 +1,28 @@
+/* inicia variables*/
+/* fin variables*/
+body {
+  background-image: linear-gradient(to right bottom, #b349a5, #bd5bb0, #c66dba, #d07ec5, #d98fcf, #df9bd6, #e6a7dd, #ecb3e4, #f1bdea, #f6c6ef, #fad0f5, #ffdafa);
+}
+
+/*inicia footer*/
+/*inicia multimedia*/
+.footerContenedor {
+  background-image: linear-gradient(to bottom, #b349a5, #bd5bb0, #c66dba, #d07ec5, #d98fcf, #da92d0, #da94d1, #db97d2, #d48cca, #cd80c2, #c575bb, #be69b3);
+  display: grid;
+  grid-template-areas: "whatsupp" "instagram" "facebook";
+}
+
+.divFooter {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.divFooter .logoRed:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+/*finaliza multimedia*/
+/*finaliza footer*/
+
+/*# sourceMappingURL=style.css.map */
